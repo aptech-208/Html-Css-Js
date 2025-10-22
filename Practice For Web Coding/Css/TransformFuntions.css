@@ -1,0 +1,47 @@
+.axisx {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    margin: 20px;
+    transform: translatex(20px);
+}
+
+.axisy {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(252, 255, 82);
+    margin: 20px;
+    transform: translatey(20px);
+}
+
+
+.rotate {
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    margin: 20px;
+    transform: rotate(90deg)
+}
+
+.stretch {
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    margin: 20px;
+    transform: skew(20deg)
+}
+
+.scale {
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 20px;
+    transform: scale(1.1);
+}
+
+.scale p {
+    text-align: center;
+    transform: translateY(90px);
+    font-size: 25px;
+    /* align-self: center; */
+}

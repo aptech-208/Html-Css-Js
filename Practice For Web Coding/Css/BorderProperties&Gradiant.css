@@ -1,0 +1,16 @@
+#border {
+    width: 1200px;
+    height: 500px;
+    /* border-width: 3px;
+    border-color: red;
+    border-style: dashed; */
+    border: 2px solid black;
+    /* Radius is for border edges */
+    border-radius: 20px;
+}
+
+.gradiant {
+    width: 1200px;
+    height: 500px;
+    background: linear-gradient(0deg, red, green, yellow);
+}
