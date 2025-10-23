@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincard {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    /* flex-direction: row; */
+    margin-block: 2px;
+    /* align-items: center; */
+    /* height: 100vh; */
+}
+
+.maincard>.card {
+    width: 400px;
+    border: 2px solid black;
+    background: linear-gradient(90deg, rgb(199, 199, 199), rgb(61, 61, 61));
+}
+
+.maincard>.card>.cardbanner>img {
+    width: 100%;
+}
+
+.maincard>.card>.cardcontent {
+    padding-inline: 15px;
+    padding-block: 15px;
+}

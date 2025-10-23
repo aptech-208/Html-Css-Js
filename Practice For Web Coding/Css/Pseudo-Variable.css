@@ -2,6 +2,18 @@ h1 {
     text-align: center;
 }
 
-a:hover {
+.set:hover {
     color: rgb(46, 43, 226);
+}
+
+.bet:visited {
+    color: brown;
+}
+
+.bat:active {
+    color: aqua;
+}
+
+.vet:link {
+    color: chartreuse;
 }
