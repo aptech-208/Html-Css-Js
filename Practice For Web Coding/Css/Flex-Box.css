@@ -37,7 +37,7 @@ html {
     border-radius: 20px;
     z-index: 2;
     margin-block: 10px;
-    display: flex-direction: column;
+    flex-direction: column;
     /* background: transparent; */
 }
 
@@ -52,13 +52,13 @@ html {
 }
 
 .maincard>.card:nth-child(1) {
-    height: 600px;
+    height: 100%;
 }
 
 .maincard>.card:nth-child(2) {
-    height: 400px;
+    height: 100%;
 }
 
 .maincard>.card:nth-child(3) {
-    height: 500px;
+    height: 100%;
 }
