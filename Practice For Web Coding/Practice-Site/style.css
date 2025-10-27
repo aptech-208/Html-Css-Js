@@ -15,7 +15,7 @@ html {
     position: absolute;
     z-index: -1;
     object-fit: cover;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .navbar {
@@ -54,4 +54,16 @@ html {
     z-index: 1;
     /* font-weight: bold; */
     /* color: rgb(177, 177, 160); */
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-left: 20px;
+
+}
+
+.bglog>img {
+    width: 700px;
 }
