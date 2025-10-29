@@ -15,15 +15,15 @@ html {
     position: absolute;
     z-index: -1;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.94;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding-inline: 10px;
-    padding-block: 15px;
-    background: linear-gradient(90deg, rgb(49, 49, 49), rgb(189, 189, 189), rgb(49, 49, 49));
+    padding-inline: 40px;
+    padding-block: 30px;
+    /* background: linear-gradient(90deg, rgb(49, 49, 49), rgb(189, 189, 189), rgb(49, 49, 49)); */
     z-index: 1;
     /* border-bottom: 3px solid;
     border-top: 3px solid;
@@ -31,39 +31,85 @@ html {
 }
 
 .navbar>.logo>img {
-    width: 90px;
+    width: 80px;
     z-index: 1;
 }
 
 .navbar>.content>ul {
     display: flex;
     list-style: none;
-    gap: 20px;
-    font-size: 20px;
+    gap: 50px;
     z-index: 1;
-    /* font-weight: bold; */
+    font-weight: bold;
+    color: #dfddd9;
+    padding-right: 150px;
 }
 
 .navbar>.btn>button {
-    font-size: 18px;
     border-radius: 20px;
-    border: none;
-    padding-inline: 10px;
-    padding-block: 3px;
-    background: linear-gradient(90deg, rgb(219, 128, 67), rgb(243, 42, 42));
+    border: 1px solid white;
+    padding: 12px;
+    margin-top: -15px;
+    background: #0A0A1B;
+    color: #dfddd9;
     z-index: 1;
+    font-weight: bolder;
     /* font-weight: bold; */
     /* color: rgb(177, 177, 160); */
 }
 
-.about {
+.about>.cont>h1 {
+    display: grid;
+    place-items: center;
+    padding-top: 80px;
+    font-weight: bold;
+    color: #dfddd9;
+}
+
+.about .contm{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
+}
+
+.about>.contm>p{
     margin-left: 20px;
+    margin-top: 40px;
+    color: #969492;
 
 }
 
 .bglog>img {
-    width: 700px;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.service .titl{
+    display: grid;
+    place-items: center;
+    padding-block: 80px;
+    color: #dfddd9;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.card>.cardban>img {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card {
+    display: grid;
+    /* grid-template-columns: repeat(1, 3fr); */
+    place-items: center;
+    width: 650px;
+    border: none
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
