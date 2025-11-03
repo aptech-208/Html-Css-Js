@@ -1,0 +1,39 @@
+.Block {
+    font-size: 25px;
+    background-color: rgb(153, 153, 153);
+}
+
+.Inline {
+    font-size: 25px;
+    background-color: rgb(153, 153, 153);
+    display: inline;
+}
+
+.inline {
+    font-size: 25px;
+    background-color: rgb(255, 194, 194);
+}
+
+.inlineblock {
+    font-size: 25px;
+    background-color: rgb(255, 194, 194);
+    display: block;
+}
+
+.dual {
+    font-size: 25px;
+    background-color: rgb(194, 241, 255);
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+}
+
+.none {
+    display: none;
+    display: block;
+}
+
+.visi {
+    visibility: hidden;
+    display: block;
+}

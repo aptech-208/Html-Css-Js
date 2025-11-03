@@ -1,0 +1,26 @@
+.cirle {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+    display: grid;
+    animation: jump 1s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0px);
+        background-color: aqua;
+    }
+
+    50% {
+        transform: translateY(20px);
+        background-color: red;
+    }
+
+    100% {
+        transform: translateY(0px);
+        background-color: aqua;
+    }
+}

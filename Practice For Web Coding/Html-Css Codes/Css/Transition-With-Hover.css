@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li>a:hover {
+    background-color: brown;
+    transform: translateX(20px);
+}
+
+li>a {
+    display: inline-block;
+}
