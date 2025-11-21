@@ -33,7 +33,7 @@ function Calc(x, y) {
     console.log(x + y);
 }
 
-Calc(123, 135);
+Calc(121, 212);
 
 let multi = (a, b) => {
     console.log(a * b);
