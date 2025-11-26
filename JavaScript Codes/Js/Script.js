@@ -1,1 +1,0 @@
-document.getElementById("lorem").innerHTML = "Data Error 204";
